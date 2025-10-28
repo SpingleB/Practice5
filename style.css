@@ -11,7 +11,12 @@
     --flex-direction-column: column;
     --align-items: center;
     --justify-content-center: center;
+    --font-size-00-and-5em: 0.5em;
+    --font-size-1-and-2em: 1.2em;
+    --font-size-1-and-5em: 1.5em;
     --font-size-2-and-5em: 2.5em;
+    --font-size-1rem: 1rem;
+    --font-size-2rem: 2rem;
 }
 
 body {
@@ -78,7 +83,7 @@ body {
 p { 
     margin: 7% 0 0 10%;
     width: var(--width-70per);
-    font-size: 1rem;
+    font-size: var(--font-size-1rem);
     color: hsl(228, 12%, 48%);
 }
 
@@ -118,20 +123,20 @@ h3 {
     background-color: hsl(158, 36%, 37%);
     text-align: center;
     border-radius: 10px;
-    font-size: 1.2em;
+    font-size: var(--font-size-1-and-2em);
 }
 
 #price-p {
     display: var(--display-flex);
     align-items: var(--align-items);
-    gap: 2rem;
+    gap: var(--font-size-2rem);
     font-size: 2.3rem;
     color: hsl(158, 36%, 37%);
 }
 span{
     color: hsl(228, 12%, 48%);                       
     text-decoration: line-through;
-    font-size: 1rem;
+    font-size: var(--font-size-1rem);
 }
 
 svg {
@@ -153,8 +158,8 @@ svg {
     background-color: hsl(158, 42%, 18%);
 }
 }
-                                         /*----------------------------------35em----------------------------------*/
-@media (max-width: 35em) {                                    
+                                         /*----------------------------------Phone----------------------------------*/
+@media (max-width: 37.5em) {                                    
   .cart {
     flex-direction: var(--flex-direction-column);
     width: 90vw;
@@ -203,11 +208,11 @@ h2 {
 #description {
     line-height: 1.5;
     width: 85%;
-    font-size: 1.2em;
+    font-size: var(--font-size-1-and-2em);
 }
 
 span{
-    font-size: 1rem;
+    font-size: var(--font-size-1rem);
 }
 
 h3 {
@@ -216,7 +221,7 @@ h3 {
     width: var(--width-80per);
     margin-left: 2em;
     border-radius: 10px;
-    font-size: 1.2em;
+    font-size: var(--font-size-1-and-2em);
 }
 
 svg {
@@ -224,8 +229,8 @@ svg {
 }
 
 }
-                                                  /*----------------------------------36em----------------------------------*/
-@media (min-width: 36em) {
+                                                  /*----------------------------------Tablet----------------------------------*/
+@media (min-width: 38.5em) {
   .cart {
     flex-direction: var(--flex-direction-row);
     width: 80vw;
@@ -258,13 +263,13 @@ p:first-child {
 
 h2 {
     margin: 5% 0 0 10%;
-    font-size: 2rem;
+    font-size: var(--font-size-2rem);
     width: var(--width-80per);
 }
 
 #price-p {
     gap: 5%;
-    font-size: 2rem;
+    font-size: var(--font-size-2rem);
 }
 
 #description {
@@ -274,7 +279,7 @@ h2 {
 }
 
 span{
-    font-size: 0.5em;
+    font-size: var(--font-size-00-and-5em);
 }
 
 h3 {
@@ -282,7 +287,7 @@ h3 {
     width: var(--width-80per);
     margin-left: 2em;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: var(--font-size-1-and-5em);
 }
 
 svg {
@@ -290,8 +295,8 @@ svg {
 }
 
 }
-                                                  /*----------------------------------66em----------------------------------*/
-@media (min-width: 66em) {
+                                                  /*----------------------------------Desktop----------------------------------*/
+@media (min-width: 57em) {
   .cart {
     flex-direction: var(--flex-direction-row);
     width: 45vw;
@@ -313,7 +318,7 @@ svg {
   p { 
     margin: 7% 0 0 10%;
     width: var(--width-70per);
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: hsl(228, 12%, 48%);
 }
 
@@ -324,7 +329,7 @@ p:first-child {
 
 h2 {
     margin: 5% 0 0 10%;
-    font-size: 3rem;
+    font-size: 2.9rem;
     width: var(--width-80per);
 }
 
@@ -336,11 +341,11 @@ h2 {
 #description {
     line-height: 2;
     width: var(--width-75per);
-    font-size: 1.2em;
+    font-size: var(--font-size-1-and-2em);
 }
 
 span{
-    font-size: 0.5em;
+    font-size: var(--font-size-00-and-5em);
 }
 
 h3 {
@@ -348,7 +353,7 @@ h3 {
     width: var(--width-80per);
     margin-right: 10%;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: var(--font-size-1-and-5em);
 }
 
 svg {

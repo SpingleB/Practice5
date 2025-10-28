@@ -18,19 +18,19 @@
 <body>
   <section class="cart">
     <div class="div-for-img">
-    <img
+<picture>
+  <source
+    srcset="images/image-product-mobile.jpg"
+    media="(max-width: 37.5em)">
+  <img
     src="images/image-product-desktop.jpg"
     alt="Chanel Gabrielle"
     width="600"
     height="900"
     loading="lazy"
-    decoding="async"
-    srcset="
-      images/image-product-mobile.jpg 700w,
-      images/image-product-desktop.jpg 600w"
-    sizes="(max-width: 44em) 100vw,
-         (max-width: 100em) 50vw,
-         600px">
+    decoding="async">
+</picture>
+
   </div>
 
   <div class="div-for-text">
