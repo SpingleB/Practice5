@@ -318,7 +318,7 @@ svg {
   p { 
     margin: 7% 0 0 10%;
     width: var(--width-70per);
-    font-size: 1.2em;
+    font-size: 1em;
     color: hsl(228, 12%, 48%);
 }
 
@@ -328,24 +328,26 @@ p:first-child {
 
 
 h2 {
-    margin: 5% 0 0 10%;
-    font-size: 2.9rem;
+    margin: 2% 0 0 10%;
+    font-size: 2.5rem;
     width: var(--width-80per);
 }
 
 #price-p {
+    margin: 1% 0 0 10%;
     gap: 5%;
-    font-size: var(--font-size-2-and-5em);
+    font-size: 2.3em;
 }
 
 #description {
+    
     line-height: 2;
     width: var(--width-75per);
-    font-size: var(--font-size-1-and-2em);
+    font-size: 1.1em;
 }
 
 span{
-    font-size: var(--font-size-00-and-5em);
+    font-size: 0.4em;
 }
 
 h3 {
